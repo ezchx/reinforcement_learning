@@ -8,7 +8,7 @@ __(1) very_simple_rl.ipynb__
 Q-Learning: https://en.wikipedia.org/wiki/Q-learning    
 Based on: https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/blob/master/contents/1_command_line_reinforcement_learning/treasure_on_right.py    
 
-<img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole2.gif">
+<img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif">
 
 __(2) cartpole_simple_dqn.ipynb__    
 - Similar to (1) except with continuous states - i.e. Q-table is a neural network
