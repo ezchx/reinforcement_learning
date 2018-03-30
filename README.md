@@ -1,5 +1,5 @@
 # reinforcement_learning
-<img src="https://github.com/ezchx/gta_self_driving_car/blob/master/Screenshot%202018-02-24%2013:26:06.png">
+<img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif">
 __(1) very_simple_rl.ipynb__    
 - Very simple example of Q-learning
 - Agent moves left or right until it discovers the treasure (T) at the far right
