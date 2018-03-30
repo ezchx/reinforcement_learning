@@ -11,7 +11,7 @@ Q-Learning: https://en.wikipedia.org/wiki/Q-learning
 <img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif">
 
 __(2) cartpole_simple_dqn.ipynb__    
-- Similar to (1) except with continuous states - i.e. Q-table is a neural network
+- Based on (1) above with continuous states - i.e. Q-table is a neural network
 - Simulations are saved in a memory object, randomly sampled as a batch, and used to train the neural network
 - Epsilon decays every episode to reduce variability as the network trains
 - Achieves a reward of 200 at 120 episodes
@@ -21,4 +21,9 @@ and: https://gist.github.com/tsu-nera/edd306ddeefebe4afb1efceefbc3f953
 Open AI gym: https://gym.openai.com/    
 
 __(3) mountain_car_simple_dqn.ipynb__
-- Same as (2) except with mountain car environment
+- Based on (2) above with mountain car environment and parameters
+- Note the two environments:
+    - env = gym.make("MountainCar-v0") # capped at 200 moves
+    - env = gym.make("MountainCar-v0").env # unlimited moves
+- Solves in 118 episodes for the capped environment
+- Solves in 5 episodes for the unlimited environment
