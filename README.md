@@ -5,8 +5,8 @@ __(1) very_simple_rl.ipynb__
 - Agent moves left or right until it discovers the treasure (T) at the far right
 - Discrete actions and states
 
-Q-Learning: https://en.wikipedia.org/wiki/Q-learning    
 Based on: https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/blob/master/contents/1_command_line_reinforcement_learning/treasure_on_right.py    
+Q-Learning: https://en.wikipedia.org/wiki/Q-learning    
 
 <img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif">
 
@@ -17,4 +17,8 @@ __(2) cartpole_simple_dqn.ipynb__
 - Achieves a reward of 200 at 120 episodes
 
 Based on: https://github.com/udacity/deep-learning/blob/master/reinforcement/Q-learning-cart.ipynb    
-and: https://gist.github.com/tsu-nera/edd306ddeefebe4afb1efceefbc3f953
+and: https://gist.github.com/tsu-nera/edd306ddeefebe4afb1efceefbc3f953    
+Open AI gym: https://gym.openai.com/    
+
+__(3) mountain_car_simple_dqn.ipynb__
+- Same as (2) except with mountain car environment
