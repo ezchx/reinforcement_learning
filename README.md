@@ -1,6 +1,6 @@
 # reinforcement_learning
 
-__(1) very_simple_rl.ipynb__    
+__(1) Treasure Hunter - very_simple_rl.ipynb__    
 - Simple example of Q-learning
 - Agent moves left or right until it discovers the treasure (T) at the far right
 - Discrete actions and finite # of states
