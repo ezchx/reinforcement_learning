@@ -5,14 +5,13 @@
 - Agent moves left or right until it discovers the treasure (T) at the far right
 - Discrete actions and finite # of states
 
-
-
 Based on: https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/blob/master/contents/1_command_line_reinforcement_learning/treasure_on_right.py    
 Q-Learning: https://en.wikipedia.org/wiki/Q-learning    
 
 <img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif">
 
-__(2) cartpole_simple_dqn.ipynb__    
+(2) [Cartpole](https://github.com/ezchx/reinforcement_learning/blob/master/cartpole_simple_dqn.ipynb)    
+
 - Based on (1) above with infinite states - i.e. Q-table is a neural network
 - Simulations are saved in a memory object, randomly sampled as a batch, and used to train the neural network
 - Epsilon decays every episode to reduce variability as the network trains
