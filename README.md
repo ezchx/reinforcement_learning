@@ -20,11 +20,13 @@ Based on: https://github.com/udacity/deep-learning/blob/master/reinforcement/Q-l
 and: https://gist.github.com/tsu-nera/edd306ddeefebe4afb1efceefbc3f953    
 Open AI gym: https://gym.openai.com/    
 
+<img src="https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car.gif">
+
 __(3) mountain_car_simple_dqn.ipynb__
 - Based on (2) above with mountain car environment and parameters
 - Note the two environments:
     - env = gym.make("MountainCar-v0") # capped at 200 moves
     - env = gym.make("MountainCar-v0").env # unlimited moves
 - Note the high learning rate (0.5) and low exploration rate (0.1)
-- Solves in 20 episodes for the capped environment
-- Solves in 3 episodes for the unlimited environment
+- Total reward above -200 in 48 episodes for the 200 move capped environment
+- Total reward above -200 in 3 episodes for the unlimited environment
