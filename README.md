@@ -28,5 +28,5 @@ __(3) mountain_car_simple_dqn.ipynb__
     - env = gym.make("MountainCar-v0") # capped at 200 moves
     - env = gym.make("MountainCar-v0").env # unlimited moves
 - Note the high learning rate (0.5) and low exploration rate (0.1)
-- Total reward above -200 in 48 episodes for the 200 move capped environment
-- Total reward above -200 in 3 episodes for the unlimited environment
+- Total reward above -200 below 100 episodes for the 200 move environment
+- Total reward above -200 below 10 episodes for the unlimited environment
