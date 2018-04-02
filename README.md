@@ -24,9 +24,9 @@ Open AI gym: https://gym.openai.com/
 
 (3) [Mountain_Car](https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car_simple_dqn.ipynb)    
 - Based on (2) above with mountain car environment and parameters
-- Note the two environments:
-    - env = gym.make("MountainCar-v0") # capped at 200 moves
-    - env = gym.make("MountainCar-v0").env # unlimited moves
-- Note the high learning rate (0.5) and low exploration rate (0.1)
-- Total reward above -200 below 100 episodes for the 200 move environment
-- Total reward above -200 below 10 episodes for the unlimited environment
+- Two environments:
+    - env = gym.make("MountainCar-v0") - capped at 200 moves
+    - env = gym.make("MountainCar-v0").env - unlimited moves
+- High learning rate (0.5) and low exploration rate (0.1)
+- Total reward above -200 around 100 episodes for the 200 move environment
+- Total reward above -200 around 10 episodes for the unlimited environment
