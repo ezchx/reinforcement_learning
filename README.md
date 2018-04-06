@@ -1,7 +1,7 @@
 # reinforcement_learning
 
 (1) [Treasure Hunter](https://github.com/ezchx/reinforcement_learning/blob/master/treasure_hunter.ipynb)    
-- Simple example of Q-learning
+- Very simple example of Q-learning
 - Agent moves left or right until it discovers the treasure (T) at the far right
 - Discrete actions and finite # of states
 
