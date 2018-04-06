@@ -11,8 +11,8 @@ Q-Learning: https://en.wikipedia.org/wiki/Q-learning
 <img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif">
 
 (2) [Cartpole](https://github.com/ezchx/reinforcement_learning/blob/master/cartpole_simple_dqn.ipynb)    
-- Based on (1) above with infinite states - i.e. Q-table is a neural network
-- Simulations are saved in a memory object, randomly sampled as a batch, and used to train the neural network
+- Based on (1) above with a neural network for the Q-table
+- Simulations are saved in a memory object, randomly sampled as a batch, and used to train the model
 - Epsilon decays every episode to reduce variability as the network trains
 - Achieves a reward of 200 at 120 episodes
 
