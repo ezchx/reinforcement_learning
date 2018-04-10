@@ -10,7 +10,7 @@ Q-Learning: https://en.wikipedia.org/wiki/Q-learning
 
 <img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif">
 
-(2) [Cartpole](https://github.com/ezchx/reinforcement_learning/blob/master/cartpole_simple_dqn.ipynb)    
+(2) [Cart Pole](https://github.com/ezchx/reinforcement_learning/blob/master/cartpole_simple_dqn.ipynb)    
 - Based on (1) above with a neural network for the Q-table
 - Simulations are saved in a memory object, randomly sampled as a batch, and used to train the model
 - Epsilon decays every episode to reduce variability as the network trains
@@ -22,7 +22,7 @@ Open AI gym: https://gym.openai.com/
 
 <img src="https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car.gif">
 
-(3) [Mountain_Car](https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car_simple_dqn.ipynb)    
+(3) [Mountain Car](https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car_simple_dqn.ipynb)    
 - Based on (2) above with mountain car environment and parameters
 - Two environments:
     - env = gym.make("MountainCar-v0") - capped at 200 moves
