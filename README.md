@@ -10,7 +10,7 @@
 Based on: https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/blob/master/contents/1_command_line_reinforcement_learning/treasure_on_right.py    
 Q-Learning: https://en.wikipedia.org/wiki/Q-learning    
 
-<img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif">
+<img src="https://github.com/ezchx/reinforcement_learning/blob/master/cartpole.gif" width="400px">
 
 (2) [Cart Pole](https://github.com/ezchx/reinforcement_learning/blob/master/cartpole_simple_dqn.ipynb)    
 - Based on (1) above with a neural network for the Q-table
@@ -22,7 +22,7 @@ Based on: https://github.com/udacity/deep-learning/blob/master/reinforcement/Q-l
 and: https://gist.github.com/tsu-nera/edd306ddeefebe4afb1efceefbc3f953    
 Open AI gym: https://gym.openai.com/    
 
-<img src="https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car.gif">
+<img src="https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car.gif" width="400px">
 
 (3) [Mountain Car](https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car_simple_dqn.ipynb)    
 - Based on (2) above with mountain car environment and parameters
