@@ -1,6 +1,6 @@
 ## reinforcement_learning    
 
-<img src="https://github.com/ezchx/reinforcement_learning/blob/master/treasure.jpg">
+<img src="https://github.com/ezchx/reinforcement_learning/blob/master/treasure.jpg" width="400px">
 
 (1) [Treasure Hunter](https://github.com/ezchx/reinforcement_learning/blob/master/treasure_hunter.ipynb)    
 - Very simple example of Q-learning
