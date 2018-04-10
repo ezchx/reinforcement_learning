@@ -1,4 +1,4 @@
-# reinforcement_learning    
+## reinforcement_learning    
 
 <img src="https://github.com/ezchx/reinforcement_learning/blob/master/treasure.jpg">
 
