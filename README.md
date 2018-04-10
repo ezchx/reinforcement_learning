@@ -22,7 +22,7 @@ Based on: https://github.com/udacity/deep-learning/blob/master/reinforcement/Q-l
 and: https://gist.github.com/tsu-nera/edd306ddeefebe4afb1efceefbc3f953    
 Open AI gym: https://gym.openai.com/    
 
-<img src="https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car.gif" width="400px">
+<img src="https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car2.gif" width="400px">
 
 (3) [Mountain Car](https://github.com/ezchx/reinforcement_learning/blob/master/mountain_car_simple_dqn.ipynb)    
 - Based on (2) above with mountain car environment and parameters
