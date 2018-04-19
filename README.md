@@ -16,7 +16,7 @@ Q-Learning: https://en.wikipedia.org/wiki/Q-learning
 - Based on (1) above with a neural network for the Q-table
 - Simulations are saved in a memory object, randomly sampled as a batch, and used to train the model
 - Epsilon decays every episode to reduce variability as the network trains
-- Achieves a reward of 200 at 120 episodes
+- Achieves a reward of 200 for 100 conscecutive episodes after 244 episodes
 
 Based on: https://github.com/udacity/deep-learning/blob/master/reinforcement/Q-learning-cart.ipynb    
 and: https://gist.github.com/tsu-nera/edd306ddeefebe4afb1efceefbc3f953    
